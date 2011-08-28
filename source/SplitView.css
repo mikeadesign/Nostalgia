@@ -1,0 +1,104 @@
+/* Copyright 2009-2011 Hewlett-Packard Development Company, L.P. All rights reserved. */
+/* Your CSS here */
+/* Copyright 2009-2011 Hewlett-Packard Development Company, L.P. All rights reserved. */
+/*.enyo-bg {
+	background-color: 	#646D7E;
+}*/
+.transitioner {
+	-webkit-transform: scale(2);
+	opacity: 0;
+	-webkit-transition-property: opacity, -webkit-transform;
+	-webkit-transition-duration: 0.3s;
+}
+
+.scaleFadeIn {
+	-webkit-transform: scale(1);
+	opacity: 1;
+}
+
+.fastAnimate {
+	-webkit-transform-style: preserve-3d;
+}
+
+
+.transitioner2 {
+	/*-webkit-transform: scale(0);  rotate(0deg) */
+	opacity: 0;
+	-webkit-transition-property: opacity, -webkit-transform;
+	-webkit-transition-duration: 1s, 1s;
+}
+
+.rotateFadeIn {
+	-webkit-transform: rotate(0deg) scale(1);
+	opacity: 1;
+}
+
+.dropshadow {
+font-size: 20px;
+/*width: 380px;*/
+margin-left: 5px;
+margin-right: 5px;
+text-align: justify;
+margin: 8px;
+/*-webkit-border-radius: 15px;
+border:1; 
+border-style:outset;*/
+}
+.dropshadow1 {
+font-size: 20px;
+/*width: 380px;*/
+margin-left: 1px;
+margin-right: 1px;
+/*-webkit-border-radius: 15px;
+border:1; 
+border-style:outset;*/
+}
+.dropshadow2 {
+font-size: 20px;
+/*width: 380px;*/
+margin-left: 15px;
+margin-right: 5px;
+text-align: justify;
+margin: 5px;
+padding-left: 10px;
+/*-webkit-border-radius: 15px;
+border:1; 
+border-style:outset;*/
+}
+.div380 {
+width:377px; 
+/*padding-top:230px;*/
+border:1; 
+border-style:outset;
+/*-webkit-border-radius: 15px;*/
+/*float:left;*/
+font-size: 16px;
+/*background-repeat:no-repeat; */
+
+}
+.div644 {
+width:651px; 
+/*padding-top:267px;*/
+border:1; 
+border-style:outset; 
+/*-webkit-border-radius: 15px;*/
+float:left;
+font-size: 16px; 
+background-repeat:no-repeat; 
+
+}
+.div1024 { 
+width:378px;  /*1015px; */
+/*padding-top:230px;*/
+border:1;  
+border-style:outset;
+/*-webkit-border-radius: 15px;*/
+float:right;
+font-size: 16px;
+background-repeat:no-repeat; 
+
+}
+.test {
+padding-top: 0px;
+}
+

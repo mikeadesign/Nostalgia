@@ -1,0 +1,156 @@
+.enyo-bg-xxxx {
+	background:#1f1f1f url(../images/content-bg.png) !important;
+}
+
+.AlbumMode .PanelHeader {
+ 	-webkit-border-image: url(../images/header-tile.png) 5 repeat repeat;
+}
+
+
+.AlbumGrid {
+	margin: 10px;
+}
+
+/* Start Added by JC*/
+.AlbumGridRowItem {
+	
+	border-top: none;
+	border-bottom: none;
+	
+}
+
+.AlbumHeaderDivider
+{
+	background-image: url(../images/divider_separator_line.png); 
+	background-repeat: repeat-x;
+	background-position: bottom;
+	width: 100%;
+}
+
+.AlbumSubHeaderText {
+	color: #bfbfbf;
+	font-size: 14px;
+	margin-right: 5px;
+	padding-right: 5px;
+}
+
+.AlbumSubHeaderText:after {
+	content: ' |';
+}
+
+.AlbumSubHeaderText:last-child:after {
+	content: '';
+}
+
+/* End Added by JC*/
+
+.AlbumGridThumb {
+	position: relative;
+	width: 240px;
+	height: 240px;
+	text-align: center;
+}
+
+.AlbumGridThumbImg {
+	-webkit-border-image: url(../images/photo-9tile.png) 6 7 7 6 repeat repeat;
+	border-width: 6px 7px 7px 6px;
+	margin: auto;
+	position: absolute; 
+	top: 0; 
+	bottom: 0; 
+	left: 0; 
+	right: 0;
+}
+
+/*
+DEFINED IN NonCssParams.js
+.AlbumGridThumb img {
+	height: 100px;
+}
+*/
+
+.MultiselectControls {
+	position: absolute;
+	width: 100%;
+	/* background-image: url(../images/divider_background.png); */
+	z-index: 10;
+}
+
+.MultiselectControls > div {
+	width: 100%;
+	height: 100%;
+}
+
+.MultiselectTop {
+	line-height: 50px;
+	height: 54px;
+	top: 0px;
+	color: #fff;
+	-webkit-transition: top 0.25s linear;
+	background: url(../images/multi-select-header.png) repeat-x;
+}
+
+.MultiselectTop > div {
+	border-bottom: 1px solid #3D3D3D;
+}
+
+.MultiselectBottom {
+	line-height: 50px;
+	height: 54px;
+	bottom: 0px;
+	-webkit-transition: bottom 0.25s linear;
+	background: url(../images/multi-select-header.png) repeat-x;
+}
+
+.MultiselectBottom > div {
+}
+
+.MultiselectHideBottom {
+	bottom: -54px;
+}
+
+.MultiselectHideTop {
+	top: -60px;
+}
+
+@-webkit-keyframes pulse {
+	from {
+		-webkit-transform: scale(1.0);
+	}
+	to {
+		-webkit-transform: scale(1.1);
+	}
+}
+
+.MultiselectHighlight > img,
+.AlbumModeMultiselect div.MultiselectHighlight img:not(.bar-left-icon) {
+	z-index: 15;
+	border-width: 15px;
+	border-color: none;
+	-webkit-border-image: url(../images/multi-select-9tile.png) 15 15 15 15 repeat repeat;
+}
+
+.AlbumModeMultiselect div:not(.MultiselectHighlight) img,
+.AlbumModeMultiselect div:not(.MultiselectHighlight) .bar-left img,
+.AlbumModeMultiselect div:not(.MultiselectHighlight) .bar-right {
+	opacity:.4;
+}
+
+.AlbumModeMultiselect div.MultiselectHighlight img,
+.AlbumModeMultiselect .PanelHeader div .gridview-header-controls img,
+.AlbumModeMultiselect div.MultiselectBottom img,
+.AlbumModeMultiselect div.MultiselectHighlight .bar-left img,
+.AlbumModeMultiselect div.MultiselectHighlight .bar-right
+ {
+	opacity:1;
+}
+
+.enyo-input-focus {
+	-webkit-border-image: url(../images/input-focus.png) 14 stretch stretch;
+	border-width:14px;
+}
+
+.enyo-input-focus .enyo-virtual-scroller {
+	width:265px !important;
+	margin-left:-13px;
+}

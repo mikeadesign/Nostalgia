@@ -1,0 +1,11 @@
+{
+	"id": "com.prenewbie.nostalgia",
+	"version": "0.0.4",
+	"vendor": "Prenewbie",
+	"type": "web",
+	"main": "index.html",
+	"title": "Nostalgia",
+	"icon": "icon200.png",
+    "splashicon": "icon200.png",
+	"uiRevision":2
+}

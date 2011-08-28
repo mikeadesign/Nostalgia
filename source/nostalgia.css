@@ -1,0 +1,16 @@
+/* Nostalgia */
+
+html {padding-top:90px; background:url(../images/logo-nostalgia.png) no-repeat 50% 18px #33343b;}
+body {background:#33343b;}
+.showMore {
+width:80px;
+height:40px;
+background:url(../images/btn_more.png);
+text-indent:-9999em; 
+overflow:hidden;
+margin:4px 10px 0 0;
+}
+.imageList img:nth-of-type(5n+2) {-webkit-transform: rotate(4deg);}
+.imageList img:nth-of-type(4n+2) {-webkit-transform: rotate(-3deg);}
+.searchBtn {width:175px; height:40px; background:url(../images/btn_search.png) no-repeat 0 0; text-indent:-9999em; overflow:hidden;margin-bottom:20px;}
+.saveBtn {width:175px; height:40px; background:url(../images/btn_save.png) no-repeat 0 0; text-indent:-9999em; overflow:hidden;}
